@@ -1,0 +1,142 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(banner.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #58f04a;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: inline-end;
+    color: #fff;
+    text-align: center;  
+    padding: 14px 40px ;
+    text-decoration: none;
+    font-size: 19px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #05c535;
+    color: rgb(20, 14, 2);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #14a814;
+    color: rgb(22, 3, 3);
+  }
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+  .open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 530px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    }
+
+#section0{
+    height: 600px;
+
+}
+
+#section1{
+    height: 400px;
+    text-align: center;
+}
+
+#section2{
+    height: 600px;
+    text-align: center;
+}
+
+#section3{
+    height: 400px;
+    text-align: center;
+
+}
+
+#section4{
+    height: 600px;
+    text-align: center;
+
+}
